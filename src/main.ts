@@ -1,7 +1,7 @@
-import { createApp } from 'vue'
-import { createHead } from '@unhead/vue'
 import App from '@/App.vue'
 import router from '@/router'
+import { createHead } from '@unhead/vue'
+import { createApp } from 'vue'
 import '@/styles/app.css'
 
 const app = createApp(App)
